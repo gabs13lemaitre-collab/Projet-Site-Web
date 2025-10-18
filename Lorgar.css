@@ -1,0 +1,52 @@
+body {
+    background-image: url('lorgar\ fond.png');
+    background-size: cover; /* L'image couvre tout l'écran */
+    background-position: center center; /* Centre l'image */
+    background-attachment: fixed; /* Fixe l'image pendant le scroll */
+h1 {
+    font-family: 'UnifrakturCook', 'Old English Text MT', 'Blackletter', serif; /* style gothique */
+    font-size: 75px;
+    text-align: center;
+
+    /* Dégradé doré sur le texte */
+    background: linear-gradient(45deg, #FFD700, #FFA500, #FFF8DC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    /* Ombre pour relief et halo lumineux */
+    text-shadow: 
+        3px 3px 3px rgba(0,0,0,0.7),
+        0 0 10px rgba(255, 215, 0, 0.8);
+}
+
+    @import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap');
+
+p {
+    font-family: 'Uncial Antiqua', "Garamond", serif; /* police manuscrit médiéval */
+    font-size: 28px;
+    color: #FFD700; /* doré de base */
+    background: rgba(0, 0, 0, 0.3); /* fond noir presque transparent */
+    margin: 0;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    
+    /* Dégradé doré sur le texte */
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(45deg, #FFD700, #FFA500, #FFF8DC);
+
+    /* Effet d'ombre pour relief */
+    text-shadow: 
+        2px 2px 2px rgba(0,0,0,0.7), 
+        0 0 5px rgba(255, 215, 0, 0.8);
+}
+
+
+    }
+    p img {
+    border-radius: 20px;
+    box-shadow: 0 0 20px #500d0d;
+}
+}

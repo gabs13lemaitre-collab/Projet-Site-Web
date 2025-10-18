@@ -1,0 +1,36 @@
+/* Import de Futura Condensed Demi-Bold (ou fallback si non disponible) */
+@import url('https://fonts.googleapis.com/css2?family=Futura:wght@600&display=swap');
+
+body {
+    background-image: url('corvus corax prison.png'); /* attention aux espaces dans le nom */
+    background-size: cover; 
+    background-position: center center; 
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: 'Futura Condensed Demi-Bold', 'Futura', sans-serif; /* style moderne et condensé */
+    font-size: 75px;
+    text-align: center;
+    color: #535353; /* doré élégant */
+
+    /* Ombre pour effet de relief */
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.7),
+                 0 0 5px rgba(255,215,0,0.8);
+}
+
+p {
+    font-family: 'Futura Condensed Demi-Bold', 'Futura', sans-serif; 
+    font-size: 25px;
+    color: #575454; /* doré élégant */
+    background: rgba(0, 0, 0, 0.3); /* fond noir presque transparent */
+    margin: 0;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+
+    /* Ombre légère pour relief */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+}

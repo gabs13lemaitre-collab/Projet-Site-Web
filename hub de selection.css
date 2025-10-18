@@ -1,0 +1,95 @@
+body {
+    background-image: url('hub\ de\ selection\ fond.png');
+    background-size: cover; /* L'image couvre tout l'écran */
+    background-position: center center; /* Centre l'image */
+    background-attachment: fixed; /* Fixe l'image pendant le scroll */
+    h1{
+        color: red;
+        font-size: 75px;
+        font-family: 'Great Vibes', cursive;
+        text-align: center;
+    }
+    p{
+        text-align: center;
+        color: red;
+        font-size: 25px;
+    }
+}
+.grid1 {
+      position: absolute;
+      top: 450px;
+      left: 25px;
+      width: 37%;
+      height: 95%;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      column-gap: 10px;
+      row-gap: 12px;
+    }
+    
+    .s2,
+    .s3,
+    .s4,
+    .s5,
+    .s6,
+    .s7,
+    .s8,
+    .s9,
+    .s10,
+    .s11,
+    .s12,
+    .s13,
+    .s14,
+    .s15,
+    .s16,
+    .s17,
+    .s18,
+    .s19 {
+      background-color: transparent;
+      color: inherit;
+      border: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-shadow: 1px 1px 2px #000;
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+
+.grid2 {
+      position: absolute;
+      top: 450px;
+      right: 25px;
+      width: 37%;
+      height: 95%;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      column-gap: 10px;
+      row-gap: 12px;
+    }
+
+    .s11,
+    .s12,
+    .s13,
+    .s14,
+    .s15,
+    .s16,
+    .s17,
+    .s18,
+    .s19 {
+      background-color: transparent;
+      color: inherit;
+      border: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-shadow: 1px 1px 2px #000;
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }

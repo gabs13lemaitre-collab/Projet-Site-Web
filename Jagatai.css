@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+
+body {
+    background-image: url('Khan\ fond.png');
+    background-size: cover; /* L'image couvre tout l'écran */
+    background-position: center center; /* Centre l'image */
+    background-attachment: fixed; /* Fixe l'image pendant le scroll */
+h1 {
+    font-family: 'Nanum Myeongjo', 'Georgia', serif; /* style manuscrit élégant */
+    font-size: 75px;
+    text-align: center;
+    color: #B8860B; /* brun doré */
+    
+    /* Ombre pour relief discret */
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+p {
+    font-family: 'Nanum Myeongjo', 'Georgia', serif; /* style manuscrit */
+    font-size: 25px;
+    color: #DAA520; /* doré clair pour le texte */
+    background: rgba(0, 0, 0, 0.3); /* fond noir presque transparent */
+    margin: 0;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    
+    /* Ombre légère pour relief */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+    p img {
+    border-radius: 20px;
+    box-shadow: 0 0 20px #500d0d;
+}
+}

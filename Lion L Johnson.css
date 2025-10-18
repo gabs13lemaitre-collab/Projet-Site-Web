@@ -1,0 +1,38 @@
+body {
+    background-image: url('Lion\ fond.jpg');
+    background-size: cover; /* L'image couvre tout l'écran */
+    background-position: center center; /* Centre l'image */
+    background-attachment: fixed; /* Fixe l'image pendant le scroll */
+    @import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+h1 {
+    font-family: 'MedievalSharp', 'UnifrakturCook', 'Georgia', serif; /* style conte / chevaleresque */
+    font-size: 75px;
+    text-align: center;
+
+    /* Dégradé riche type conte */
+    background: linear-gradient(45deg, #DAA520, #C04000, #8B0000); /* doré rougeoyant vers bordeaux */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    /* Ombre légère pour relief */
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+p {
+    font-family: 'MedievalSharp', 'UnifrakturCook', 'Georgia', serif; /* style conte / chevaleresque */
+    font-size: 25px;
+
+    /* Dégradé riche type conte */
+    background: linear-gradient(45deg, #DAA520, #C04000, #8B0000); /* doré rougeoyant vers bordeaux */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    /* Ombre légère pour relief */
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+
+    p img {
+    border-radius: 20px;
+    box-shadow: 0 0 20px #500d0d;
+}
+}

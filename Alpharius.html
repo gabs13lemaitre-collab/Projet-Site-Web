@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Bibliotheca vetita primarcharum</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body style="
+  background: url('aplharuis.png') no-repeat center center fixed;
+  background-size: cover;
+">
+  <h1 style="
+    color: #FFD700;
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+  ">
+    Par decret inquisitoriale numéro 458-43-ahy76,Ce site est desormais comdamner.
+  </h1>
+  <br>
+  <button id="alertBtn" onclick="playAlert()" style="
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0;
+  z-index: 9999;
+  border: none;
+  background: transparent;
+  pointer-events: auto;
+  cursor: default;
+"></button>
+<script>
+function playAlert() {
+  var audio = new Audio('ALRMSirn_Signal national alerte (ID 3259)_LS.mp3');
+  audio.play();
+  document.getElementById('alertBtn').remove();
+}
+</script>
+</body>
+</html>

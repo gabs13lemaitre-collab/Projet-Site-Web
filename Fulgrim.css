@@ -1,0 +1,41 @@
+/* Import de polices calligraphiques */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=UnifrakturCook&display=swap');
+
+body {
+    background-image: url('fond Fulgrim.png'); /* attention aux espaces dans le nom */
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: 'Great Vibes', 'UnifrakturCook', serif; /* style Renaissance exagéré */
+    font-size: 75px;
+    text-align: center;
+    color: #FFD700; /* doré brillant */
+    
+    /* Ombre pour relief */
+    text-shadow: 
+        2px 2px 3px rgba(0,0,0,0.7), 
+        0 0 10px rgba(255, 215, 0, 0.9);
+}
+
+p {
+    font-family: 'Great Vibes', 'Georgia', serif; /* style Renaissance manuscrit */
+    font-size: 30px;
+    color: #FFD700; /* doré brillant */
+    background: rgba(0, 0, 0, 0.3); /* fond noir presque transparent */
+    margin: 0;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    
+    /* Ombre légère pour relief */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+    p img {
+    border-radius: 20px;
+    box-shadow: 0 0 20px #500d0d;
+}
+

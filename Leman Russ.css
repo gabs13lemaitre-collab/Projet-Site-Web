@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook&family=MedievalSharp&display=swap');
+body {
+    background-image: url('leman russ fond.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+
+h1 {
+    font-family: 'MedievalSharp', 'Garamond', serif; /* style manuscrit ancien */
+    font-size: 75px;
+    text-align: center;
+    color: #D4AF37;
+    
+    text-shadow: 
+        2px 2px 2px rgba(0,0,0,0.7),
+        0 0 5px rgba(212, 175, 55, 0.7);
+}
+p {
+    font-family: 'MedievalSharp', 'Garamond', serif; /* style manuscrit ancien */
+    font-size: 25px;
+    color: #D4AF37; /* doré métallique */
+    background: rgba(0, 0, 0, 0.3); /* fond noir presque transparent */
+    margin: 0;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+
+    /* Ombre pour relief gravé */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+p img {
+    border-radius: 20px;
+    box-shadow: 0 0 20px #500d0d;
+}
+}

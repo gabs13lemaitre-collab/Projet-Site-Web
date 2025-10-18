@@ -1,0 +1,36 @@
+body {
+    background-image: url('Angron fond decran.jpg'); /* attention aux espaces dans le nom */
+    background-size: cover; 
+    background-position: center center; 
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: 'Trajan Pro', 'Times New Roman', 'Garamond', serif; /* style romain classique */
+    font-size: 75px;
+    text-align: center;
+    color: rgb(170, 18, 18); /* rouge profond */
+    
+    /* Ombre légère pour relief */
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+p {
+    font-family: 'Trajan Pro', 'Times New Roman', 'Garamond', serif; /* style romain classique */
+    font-size: 25px;
+    color: #FF8C42; /* orange doré */
+    background: rgba(43, 43, 43, 0.7); /* fond noir semi-transparent */
+    margin: 0;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+
+    /* Ombre subtile pour relief */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+
+p img {
+    border: 5px solid #AA1212;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #AA1212;
+}

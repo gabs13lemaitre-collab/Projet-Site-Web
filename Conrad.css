@@ -1,0 +1,24 @@
+body{
+    background-image: url('conrad\ fond.jpg');
+    background-size: cover; /* L'image couvre tout l'écran */
+    background-position: center center; /* Centre l'image */
+    background-attachment: fixed; /* Fixe l'image pendant le scroll */
+}
+h1{
+    color: rgb(58, 56, 56);
+    font-size: 75px;
+    font-family: 'Times New Roman', serif;
+    text-align: center;
+}
+p{
+    color: rgb(189, 186, 186);
+    font-size: 25px;
+    font-family: 'Times New Roman', serif;
+    text-align: justify;
+    margin: -6px;
+    background: rgba(80, 13, 13, 0.7);
+}
+p img {
+    border-radius: 20px;
+    box-shadow: 0 0 20px #500d0d;
+}
